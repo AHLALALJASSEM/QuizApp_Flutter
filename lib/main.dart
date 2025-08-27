@@ -1,6 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:quizapp_flutter/core/constants/assets.dart';
+import 'package:quizapp_flutter/presentation/screens/splash_screen.dart';
+import 'package:quizapp_flutter/routes.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,7 +32,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: MyHomePage(),
+      initialRoute: AppRoutes.splashScrren,
+      routes: AppRoutes.routes,
     );
   }
 }
