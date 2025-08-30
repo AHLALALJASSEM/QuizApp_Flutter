@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:quizapp_flutter/core/constants/assets.dart';
-import 'package:quizapp_flutter/core/constants/colors.dart';
 import 'package:quizapp_flutter/routes.dart';
 
 class OnboardingScreen extends StatelessWidget {

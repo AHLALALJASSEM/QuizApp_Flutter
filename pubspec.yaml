@@ -35,6 +35,9 @@ dependencies:
   shared_preferences:
   flutter_animate: 
   introduction_screen:
+  flutter_bloc:
+  connectivity_plus:
+  http:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
