@@ -1,7 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:quizapp_flutter/core/constants/assets.dart';
-import 'package:quizapp_flutter/presentation/screens/splash_screen.dart';
 import 'package:quizapp_flutter/routes.dart';
 
 void main() async {
@@ -30,10 +29,11 @@ class MyApp extends StatelessWidget {
       title: 'QuizApp',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF673AB7)),
       ),
-      initialRoute: AppRoutes.splashScrren,
-      routes: AppRoutes.routes,
+       routes: AppRoutes.routes,
+      initialRoute: AppRoutes.splashScreen,
+     
     );
   }
 }
