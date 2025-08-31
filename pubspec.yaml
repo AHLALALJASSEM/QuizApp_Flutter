@@ -36,6 +36,7 @@ dependencies:
   flutter_animate: 
   introduction_screen:
   flutter_bloc:
+  internet_connection_checker_plus:
   connectivity_plus:
   http:
 
