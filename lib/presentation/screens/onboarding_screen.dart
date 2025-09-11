@@ -29,7 +29,7 @@ class OnboardingScreen extends StatelessWidget {
             image: Image.asset(AppAssets.onBoarding_3),
           )
         ],
-        onDone:() => Navigator.pushReplacementNamed(context,AppRoutes.splashScreen),
+        onDone:() => Navigator.pushReplacementNamed(context,AppRoutes.loginScreen),
         showSkipButton: true,
         showBackButton: true,
         showNextButton: true,
